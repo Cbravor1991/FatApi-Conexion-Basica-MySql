@@ -11,7 +11,7 @@ storedb, para crear el comando es create database storedb;
 5) Ver databases creada show databases;
 
 '''
-engine = create_engine("mysql://nombre_de_usuario:contraseña@localhost:puerto/nombre_base_de_datos")
+engine = create_engine("mysql://root:1234@localhost:3307/storedb")
 
 meta = MetaData()
 

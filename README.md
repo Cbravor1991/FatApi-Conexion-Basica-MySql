@@ -2,7 +2,7 @@
 
 Para realizar la conexión es necesario que tengas, instaldo MySql (o PostgressSQL, etc). También es necesario que tengas instalado FastApi, sqlalchemy, entre otra librerias, dentro del proyecto se encuntra un archivo requeriment.txt, que cuenta con todas las librerias necesarias para que el proyecto funcione, asi como una serie de librerias de gran utilidad si vas a llevar a cabo un proyecto backend profesional 
 
-## Pasos a seguir para que el proyecto funciones
+## Pasos a seguir para que el proyecto funcione
 
 - **Instalar Mysql**: Si MySQL no está instalado en tu sistema, por favor instala el sistema de gestión de bases de datos de tu preferencia. Una recomendación es que instales Mysql y junto al mismo MySql Workbench, una vez realizado esto es necesario crear la base de datos que voy a utilizar en el proyecto.
   
