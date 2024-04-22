@@ -1,10 +1,10 @@
-# Conexion inicial una base de datos
+# Conexion inicial de la base de datos
 
 Para realizar la conexión es necesario que tengas, instaldo MySql (o PostgressSQL, etc). También es necesario que tengas instalado FastApi, sqlalchemy, entre otra librerias, dentro del proyecto se encuntra un archivo requeriment.txt, que cuenta con todas las librerias necesarias para que el proyecto funcione, asi como una serie de librerias de gran utilidad si vas a llevar a cabo un proyecto backend profesional 
 
 ## Pasos a seguir para que el proyecto funciones
 
-- **Instalar Mysql**: Si MySQL no está instalado en tu sistema, por favor instala el sistema de gestión de bases de datos de tu preferencia. Una recomendación es que instales Mysql y junto al mismo MySql Workbench .
+- **Instalar Mysql**: Si MySQL no está instalado en tu sistema, por favor instala el sistema de gestión de bases de datos de tu preferencia. Una recomendación es que instales Mysql y junto al mismo MySql Workbench, una vez realizado esto es necesario crear la base de datos que voy a utilizar en el proyecto.
   
 - **Instalar las librerias**: Para instalar todas las librerias que se encuentran listadas en requeriment.txt, debes tener instaldo en tu sistema PIP (Python Package Installer), una vez instaldo escribe en la consola **pip install -r requirements.txt**
 
@@ -19,4 +19,6 @@ Para realizar la conexión es necesario que tengas, instaldo MySql (o PostgressS
   - **"localhost"**: Es el nombre del host donde se encuentra alojada la base de datos. En este caso, se refiere al mismo equipo en el que se está ejecutando el código.
   - **"puerto"**: Es el puerto en el que el servidor de la base de datos MySQL está escuchando. Por lo general, el puerto predeterminado para MySQL es 3306.
   - **"nombre_base_de_datos"**: Es el nombre de la base de datos a la que se desea conectarse.
+
+  - **Ejecutar proyecto**: Después de instalar las dependencias y configurar la conexión, ejecuta la siguiente instrucción en la consola: uvicorn app:app --reload. Esto iniciará el servidor. Además, se creará una tabla llamada "users" en la base de datos especificada anteriormente, con las columnas **name**, **id**, y **password**.
 
