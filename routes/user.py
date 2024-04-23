@@ -22,3 +22,11 @@ def create_user(user: User):
     print(result.lastrowid)
     return connection.execute(users.select().where(users.c.id == result.lastrowid)).first()
 
+@user.get("/user/{id}")
+def hello_world(id:str):
+    return connection.execute(users.select().where(users.c.id==id)).first()
+
+
+
+
+
